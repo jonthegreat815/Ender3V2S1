@@ -5,10 +5,11 @@ If you have the stock icons and display assets you don't need to update the disp
 **Original Ender 3V2 DWIN display**  
 ![Ender3v2-DWIN](https://user-images.githubusercontent.com/2745567/156829365-a58a3afc-77e3-40b9-9e16-5edfe3073de8.jpg)
 
-**Original Ender 3S1 DACAI display**  
+**Original Ender 3S1 DACAI display** (Also used in some new Ender 3V2)  
 ![Ender3S1-DACAI](https://user-images.githubusercontent.com/2745567/156829472-2c38a4ab-bdde-4c21-b78f-a30692c96500.jpg)
 
-The `DWIN_SET` display firmware / icon assets only apply to the Ender 3V2 original display, for the Ender 3S1 you must to use the `private` display firmware / icon assets.
+The `DWIN_SET` display firmware / icon assets only apply to the Ender 3V2 original display, for the Ender 3S1 or
+DACAI screens you must to use the `private` display firmware / icon assets.
 
 # Display firmware, boot image and icons compilations
 This page list the display assets compilations compatible with [Professional firmware](https://github.com/mriscoc/Ender3V2S1/releases/latest) fork.
@@ -18,7 +19,7 @@ Not all icons compilations are available for the DWIN_SET and private.
 ## How to install
 1. Get an µSD card of 8GB or less.
 1. Format the µSD card MBR, FAT32 and with a 4 KB sector size
-1. Copy the `DWIN_SET` or the `private` directory in the Root of SD
+1. Copy the `DWIN_SET`(DWIN) or `private`(DACAI) folder in the Root of SD
 1. Turn off your printer
 1. Disconnect and disassembly the screen unit
 1. Install the µSD card into the slot of the screen unit
@@ -60,3 +61,4 @@ Be sure to leave **only** the `DWIN_SET` or `private` folder at the root of the 
 
 ### Updating printer firmware
 For update your printer firmware and get the latest version go here: <https://github.com/mriscoc/Ender3V2S1/releases/latest>  
+
