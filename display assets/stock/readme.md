@@ -9,7 +9,7 @@
   
 1. Get an µSD card of 8GB or less.
 1. Format the µSD card MBR, FAT32 and with a 4 KB sector size
-1. Copy the `DWIN_SET`, for Ender3V2 or `private` for Ender3S1 folder in the Root of SD
+1. Copy the `DWIN_SET` (DWIN), or `private` (DACAI) folder in the Root of SD
 1. Turn off your printer
 1. Disconnect and dissasembly the screen unit
 1. Install the µSD card into the slot of the screen unit
